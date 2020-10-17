@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="amazon" verbose="2" thread-count="2">
+    <test name="amazon" thread-count="2">
+        <classes>
+            <class name="uk.co.amazon.AddIPhoneToBusketChromeTest" />
+            <class name="uk.co.amazon.AddIPhoneToBusketFirefoxTest" />
+        </classes>
+    </test>
+</suite>
